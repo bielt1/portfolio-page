@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_1" data-name="Ebene 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.24 80.7">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke: #af2877;
+      }
+
+      .cls-3 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-5 {
+        font-family: IBMPlexSans-Medium, 'IBM Plex Sans';
+        font-size: 72px;
+        font-weight: 500;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        font-family: 'IBMPlexSans-Medium', 'IBM Plex Sans', sans-serif;;
+        font-size: 72px;
+        font-weight: 500;
+        stroke-miterlimit: 10;
+  }
+    </style>
+  </defs>
+  <text class="cls-5" transform="translate(42.54 61.63)"><tspan class="cls-3" x="0" y="0">T</tspan><tspan class="cls-4" x="36.07" y="0">.</tspan><tspan class="cls-1" x="56.95" y="0">B</tspan><tspan class="cls-2" x="103.32" y="0">.</tspan></text>
+  <text/>
+</svg>
