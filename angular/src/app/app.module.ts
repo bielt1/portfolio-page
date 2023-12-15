@@ -18,7 +18,7 @@ import { NgClickOutsideDirective } from 'ng-click-outside2';
 import { ScrollSpyModule } from 'ng-spy';
 import { InstagramService } from './main/blog/instagram.service';
 import { HttpClientModule } from '@angular/common/http';
-import { FlexLayoutModule } from '@angular/flex-layout';
+
 
 @NgModule({
   declarations: [
@@ -42,7 +42,6 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     ScrollSpyModule,
     NgClickOutsideDirective,
     HttpClientModule,
-    FlexLayoutModule,
   ],
   providers: [InstagramService],
   bootstrap: [AppComponent],

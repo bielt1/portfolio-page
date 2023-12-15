@@ -1,46 +1,31 @@
-/* blog.component.scss */
+/* styles.scss */
 
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 20px;
 }
 
 .post {
-  width: 30%; /* Anpassen je nach Bedarf */
-  margin-bottom: 20px;
   position: relative;
 
   img {
     width: 100%;
     height: auto;
     display: block;
-    border: none;
-    border-radius: 0;
+    border: none; /* Entfernt den Rahmen */
+    border-radius: 0; /* Entfernt die Rundung der Ecken */
   }
 
-  .overlay {
+  p {
     position: absolute;
-    top: 0;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-
-    &:hover {
-      opacity: 1;
-    }
-
-    a {
-      color: #fff;
-      text-decoration: none;
-    }
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
   }
 }
