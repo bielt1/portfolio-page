@@ -14,8 +14,11 @@ import { WorkComponent } from './main/work/work.component';
 import { TestimonialsComponent } from './main/testimonials/testimonials.component';
 import { BlogComponent } from './main/blog/blog.component';
 import { ContactComponent } from './main/contact/contact.component';
-import {NgClickOutsideDirective} from 'ng-click-outside2';
+import { NgClickOutsideDirective } from 'ng-click-outside2';
 import { ScrollSpyModule } from 'ng-spy';
+import { InstagramService } from './main/blog/instagram.service';
+import { HttpClientModule } from '@angular/common/http';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -29,7 +32,7 @@ import { ScrollSpyModule } from 'ng-spy';
     WorkComponent,
     TestimonialsComponent,
     BlogComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
@@ -37,9 +40,11 @@ import { ScrollSpyModule } from 'ng-spy';
     BrowserAnimationsModule,
     CarouselModule,
     ScrollSpyModule,
-    NgClickOutsideDirective
+    NgClickOutsideDirective,
+    HttpClientModule,
+    FlexLayoutModule,
   ],
-  providers: [],
-  bootstrap: [AppComponent]
+  providers: [InstagramService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

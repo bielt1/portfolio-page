@@ -1,0 +1,7 @@
+<!-- blog.component.html -->
+<div class="container">
+  <div *ngFor="let post of instagramPosts" class="post">
+    <img [src]="post.media_url" alt="{{ post.caption }}" />
+    <p>{{ post.caption }}</p>
+  </div>
+</div>
