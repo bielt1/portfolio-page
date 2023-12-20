@@ -274,6 +274,24 @@ a {
 .about-bio {
   max-width: 600px;
   margin-bottom: 25px;
+  h6 {
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    text-transform: uppercase;
+    background: linear-gradient(
+      270.16deg,
+      var(--px-theme-2) 5.74%,
+      var(--px-theme) 92.05%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  span {
+    color: var(--px-theme);
+  }
 }
 
 .about-contact {
@@ -291,7 +309,6 @@ a {
 }
 
 .about-exp {
-  border-top: 1px solid rgba(var(--px-white-rgb), 0.1);
   margin-top: 30px;
   padding-top: 45px;
   .a-number {
@@ -333,7 +350,7 @@ a {
     border-radius: 10px;
     position: relative;
     display: flex;
-    margin: 15px 0 0;
+    margin: 5px 0 0;
     @include down-sm {
       padding: 20px;
     }
