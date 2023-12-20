@@ -50,6 +50,17 @@
     <li>
       <a
         class="menu-item"
+        spyOn="experience"
+        activeClass="active"
+        href="#experience"
+        (click)="fullPageScroll('experience')"
+      >
+        Experience
+      </a>
+    </li>
+    <li>
+      <a
+        class="menu-item"
         spyOn="about"
         activeClass="active"
         href="#about"
@@ -61,23 +72,12 @@
     <li>
       <a
         class="menu-item"
-        spyOn="services"
+        spyOn="skills"
         activeClass="active"
-        href="#services"
-        (click)="fullPageScroll('services')"
+        href="#skills"
+        (click)="fullPageScroll('skills')"
       >
-        Services
-      </a>
-    </li>
-    <li>
-      <a
-        class="menu-item"
-        spyOn="work"
-        activeClass="active"
-        href="#work"
-        (click)="fullPageScroll('work')"
-      >
-        Portfolio
+        Skills
       </a>
     </li>
     <li>

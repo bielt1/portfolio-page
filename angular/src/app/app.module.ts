@@ -9,7 +9,7 @@ import { RouterModule } from '@angular/router';
 import { HomeComponent } from './main/home/home.component';
 import { AboutComponent } from './main/about/about.component';
 import { ExperienceComponent } from './main/experience/experience.component';
-import { ServicesComponent } from './main/services/services.component';
+import { SkillsComponent } from './main/skills/skills.component';
 import { WorkComponent } from './main/work/work.component';
 import { TestimonialsComponent } from './main/testimonials/testimonials.component';
 import { BlogComponent } from './main/blog/blog.component';
@@ -28,7 +28,7 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     AboutComponent,
     ExperienceComponent,
-    ServicesComponent,
+    SkillsComponent,
     WorkComponent,
     TestimonialsComponent,
     BlogComponent,
