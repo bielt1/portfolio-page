@@ -383,7 +383,6 @@ a {
     margin: 0;
     p {
       max-width: 370px;
-      font-size: 18px;
       @include down-md {
         max-width: 100%;
       }
