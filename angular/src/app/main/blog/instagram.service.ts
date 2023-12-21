@@ -9,7 +9,7 @@ import { Observable } from 'rxjs';
 export class InstagramService {
   private apiUrl = 'https://graph.instagram.com/v12.0';
   private accessToken =
-    'IGQWRPVkZAKNEFJbUdFNUNja1V0dHVZAX1FMNWs4UjRfMEYzb2RPMnFBNnJndC1PT0kxai1KdkZAVdGItRHhYVUdSTnVBLWZA2eGdnQ3I2RzY4aHVac0N2aGE2X3RRa2E3UlM4ZATBtbWVyUWY4VnZAUSl8wRURqRENJUncZD';
+    'IGQWROZAUtpSE9Ocno4UlpudlNlMkdoTDlNcENQdmNtZAU1TMVpaMDh2TnpXOG5XWmp3SmdYMV9RZA0s4VTRSNmI4R1lPVzd0NWo0Ui1SVHBiV0k1dnNBbUpVd3hvaFpnZAWpOV2ZAPU3lTd2VzUkRrU3ZAoc3hXOWRNYTAZD';
 
   constructor(private http: HttpClient) {}
 
