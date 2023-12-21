@@ -1,4 +1,3 @@
-// blog.component.ts
 import { Component, OnInit } from '@angular/core';
 import { InstagramService } from './instagram.service';
 

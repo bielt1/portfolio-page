@@ -2,6 +2,17 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.4.
 
+## Use of Template
+
+An Angular template was obtained from themeforest.net, which was adapted and supplemented.
+
+## Use of ChatGPT
+
+ChatGPT was used as support for certain code sections - these parts are commented in most cases.
+
+## Blog Section
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

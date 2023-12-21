@@ -526,40 +526,6 @@ a {
     }
   }
 }
-.contact-form {
-  padding: 50px;
-  @include down-sm {
-    padding: 30px;
-  }
-  .contact-head {
-    margin-bottom: 35px;
-    h4 {
-      font-size: 40px;
-      font-weight: 700;
-      line-height: 1.1;
-      margin-bottom: 15px;
-      @include down-sm {
-        font-size: 32px;
-      }
-    }
-  }
-  .form-label {
-    font-weight: 500;
-    text-transform: uppercase;
-    font-size: 12px;
-  }
-  .form-control {
-    background: rgba(var(--px-white-rgb), 0.05);
-    border-radius: 0;
-    padding: 0.675rem 0.75rem;
-    border: 1px solid rgba(var(--px-white-rgb), 0.3);
-    color: var(--px-white);
-    box-shadow: none;
-    @include placeholder {
-      color: rgba(var(--px-white-rgb), 0.5);
-    }
-  }
-}
 
 .contact-info {
   ul {
@@ -603,11 +569,6 @@ a {
       margin-top: 20px;
     }
   }
-}
-
-.google-map {
-  margin-top: 25px;
-  filter: grayscale(100%);
 }
 
 /* ----------------------
