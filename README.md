@@ -12,6 +12,7 @@ ChatGPT was used as support for certain code sections - these parts are commente
 
 ## Blog Section
 
+The plan was to embed images from my Instagram account via access token and API in the blog section - unfortunately this only works if the application is running locally - this still needs to be worked out in the future.
 
 ## Development server
 
