@@ -10,15 +10,12 @@ import { HomeComponent } from './main/home/home.component';
 import { AboutComponent } from './main/about/about.component';
 import { ExperienceComponent } from './main/experience/experience.component';
 import { SkillsComponent } from './main/skills/skills.component';
-import { WorkComponent } from './main/work/work.component';
-import { TestimonialsComponent } from './main/testimonials/testimonials.component';
 import { BlogComponent } from './main/blog/blog.component';
 import { ContactComponent } from './main/contact/contact.component';
 import { NgClickOutsideDirective } from 'ng-click-outside2';
 import { ScrollSpyModule } from 'ng-spy';
 import { InstagramService } from './main/blog/instagram.service';
 import { HttpClientModule } from '@angular/common/http';
-
 
 @NgModule({
   declarations: [
@@ -29,8 +26,6 @@ import { HttpClientModule } from '@angular/common/http';
     AboutComponent,
     ExperienceComponent,
     SkillsComponent,
-    WorkComponent,
-    TestimonialsComponent,
     BlogComponent,
     ContactComponent,
   ],
