@@ -481,47 +481,33 @@ a {
 /* ----------------------
 * Blog  Section
 ---------------------------*/
-.blog-post {
-  a {
-    cursor: pointer;
+.post-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.post {
+  position: relative;
+
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: none; /* Entfernt den Rahmen */
+    border-radius: 0; /* Entfernt die Rundung der Ecken */
   }
-  .blog-post-img {
-    overflow: hidden;
-    img {
-      transition: ease all 0.34s;
-      transform: scale(1);
-    }
-  }
-  .blog-post-info {
-    padding-top: 25px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid rgba(var(--px-white-rgb), 0.1);
-    h6 {
-      font-weight: 15px;
-      margin: 0 0 10px;
-    }
-    h2 {
-      font-weight: 700;
-      font-size: 22px;
-      margin: 0;
-      a {
-        color: inherit;
-      }
-    }
-  }
-  &:hover {
-    .blog-post-img {
-      img {
-        transform: scale(1.5);
-      }
-    }
-    .blog-post-info {
-      h2 {
-        a {
-          color: var(--px-theme);
-        }
-      }
-    }
+
+  p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin: 0;
+    font-size: 14px;
+    color: #333;
   }
 }
 
