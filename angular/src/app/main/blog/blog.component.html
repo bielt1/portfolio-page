@@ -1,10 +1,11 @@
 <div class="container">
   <div class="section-heading text-center text-lg-start">
-    <h2>ABOUT</h2>
+    <h2>Blog</h2>
+    <p></p>
+    <h6>Some of my Instagram Posts</h6>
   </div>
-
   <div class="post-container">
-    <div *ngFor="let post of instagramPosts" class="post">
+    <div *ngFor="let post of instagramPosts.slice(5, 15)" class="post">
       <img [src]="post.media_url" alt="{{ post.caption }}" />
       <p>{{ post.caption }}</p>
     </div>

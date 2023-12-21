@@ -481,6 +481,11 @@ a {
 /* ----------------------
 * Blog  Section
 ---------------------------*/
+.carousel-container {
+  max-width: 800px; /* Anpassen der maximalen Breite des Carousels */
+  margin: auto;
+}
+
 .post-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
