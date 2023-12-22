@@ -438,9 +438,10 @@ a {
   }
 }
 
-/* ----------------------
-* Skills Section
----------------------------*/
+/* ------------------------------------
+* Skills Section – erstellt mit ChatGPT
+--------------------------------------*/
+
 .skills-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -478,9 +479,9 @@ a {
   color: #100e24;
 }
 
-/* ----------------------
-* Blog  Section
----------------------------*/
+/* -----------------------------------
+* Blog  Section – erstellt mit ChatGPT
+------------------------------------*/
 .carousel-container {
   max-width: 800px; /* Anpassen der maximalen Breite des Carousels */
   margin: auto;
