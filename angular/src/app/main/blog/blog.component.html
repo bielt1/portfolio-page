@@ -1,12 +1,16 @@
 <div class="container">
-  <div class="section-heading text-center text-lg-start">
-    <h2>Blog</h2>
-    <h5>Some of my Instagram Posts</h5>
-  </div>
-  <div class="post-container">
-    <div *ngFor="let post of instagramPosts.slice(5, 15)" class="post">
-      <img [src]="post.media_url" alt="{{ post.caption }}" />
-      <p>{{ post.caption }}</p>
+  <div class="row gy-5">
+    <div class="section-heading">
+      <div>
+        <h2>Blog</h2>
+        <h5>Some of my Instagram Posts</h5>
+      </div>
+      <div class="post-container">
+        <div *ngFor="let post of instagramPosts.slice(5, 15)" class="post">
+          <img [src]="post.media_url" alt="{{ post.caption }}" />
+          <p>{{ post.caption }}</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
